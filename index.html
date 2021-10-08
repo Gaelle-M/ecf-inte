@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Projet ECF</title>
+</head>
+<body>
+  <header>
+  <nav>
+    <!--Partie de la du titre et du logo-->
+    
+      <a id="titre" href="#"><img src="images/logoPIERRE.svg" alt="image du logo" id="logo">
+      COMPANY LOGO</a>
+    
+    <!--Prtie du menu--> 
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link fw-bold"  id="home" aria-current="page" href="#">HOME</a>
+          <a class="soustitre" href="#">Menu Styles</a>
+          <a class="soustitre" href="#">Sliders</a>
+          <a class="soustitre" href="#">More Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="company" href="#">COMPANY</a>
+          <a class="soustitre" href="#"> About us</a>
+          <a class="soustitre" href="#">Contact Us</a>
+          <a class="soustitre" href="#">Custom Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="portfolio" href="#">PORTFOLIO</a>
+          <a class="soustitre" href="#">Two Columns</a>
+          <a class="soustitre" href="#">Three Columns</a>
+          <a class="soustitre" href="#">More Layouts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="products" href="#">PRODUCTS</a>
+          <a class="soustitre" href="#">Product Category 1</a>
+          <a class="soustitre" href="#">Product Category 2</a>
+          <a class="soustitre" href="#">Custom Template</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="blog" href="#">BLOG</a>
+          <a class="soustitre" href="#">Post Types</a>
+          <a class="soustitre" href="#">Latest News</a>
+          <a class="soustitre" href="#">Custom Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <!--Bordure qui entoure les premières images-->
+    <section id="border">
+
+    <!--Partie des 4 images-->
+    <img class="image" src="images/projet_css_image1.png" alt="photo d'un salon">
+    <img class="image" src="images/projet_css_image2.png" alt="photo d'un sac à dos">
+    <img class="image" src="images/projet_css_image3.png" alt="photo d'une cuisine">
+    <img class="image" src="images/projet_css_image4.png" alt="photo d'une salle de bain">
+  </section>
+
+  <!--Partie central avec le background-->
+  
+  <section class="center">
+   <p class="para1 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <span class="underline">do eius mod tempor</span> incididunt ut labore et<br/> dolore magna aliqua. Ut enim ad minim veniam.</p>
+  </section>
+  <!--Partie du milieu avec les articles-->
+  <section id="border">
+  <main class="d-flex p-2 bd-highlight w-100 p-3 justify-content-center  ">
+
+    <!--Partie qui contient la box avec le poisson-->
+    <article  class="boxfish shadow-sm p-3 mb-5 bg-body rounded ">
+    <h2>Welcome</h2>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <img class="fish" src="images/projet_css_image_fish.png" alt="image de deux poissons dans un bocal">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec purus tellus, quis pulvinar tortor. Sedmattis lobortis gravida.</p>
+    <a class="read" href="#">read more →</a>
+    </article>
+<!--Partie qui contient les deux articles texte-->
+  <article class="articles">
+    <h2>Latest works</h2>
+    <h5>Sub title for home page box</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec purus tellus, quis pulvinar tortor. Sedmattis lobortis gravida.</p>
+    <h2>Our products</h2>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec purus tellus, quis pulvinar tortor. Sedmattis lobortis gravida.</p>
+  </article>
+
+  <!--Partie qui contient l'article avec la vidéo-->
+  <article class="articlevideo">
+    <h2>Flexible pages</h2>
+    <h5>Sub title for home page box</h5>
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/4sDAhnYjWs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </article> 
+ </main>
+
+</section>
+ <!--Partie du bas du site-->
+ <!-- Footer -->
+<footer class=" text-center text-lg-start bg-light text-muted">
+<section class="footer">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-5 mb-4">
+
+          <!--Réglage de la partie "contact details"-->
+          <h6 class="text-uppercase fw-bold mb-4">contact details</h6>
+          <p><i class="fas fa-home me-3"></i> 63739 street lorem ipsum<br/> City, Contry</p>
+          <p>
+            <p><i class="fas fa-phone me-3"></i> + 01 123 312 32 23</p>
+            <p><i class="fas fa-envelope me-3"></i><a  href="mailto:info@exemple.com" class="mail">info@example.com</a></p>
+          <p><i class="fas fa-life-ring me-3"></i><a  href="mailto:support@company.com" class="mail">support@company.com</a></p>
+        </div>
+       <!--Réglage de la partie "twitter feeds"-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-5 mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">Twitter feeds</h6>
+          <p class="para2">about 5 hours ago</p>
+          <p class="me-3">Pragmatic, pratical font sizing in CSS </p>
+        </div>
+
+        <!--Réglage de la partie "recent post"-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-5 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Recent post</h6>
+          <p class="para2">01 Mar 2012</p>
+          <p class="recent">gallery post type</p>
+          <p>Lorem ipsum dolor dolor sit amet, consecteur adipiscing elit. Sed et ligula quis urna placerat fermentum...</p>
+        </div>
+
+        <!--Réglage de la partie "widgetizied footer"-->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto my-5 mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">widgetizied footer</h6>
+           <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nulla at felis mi, at auctor mi. Donec nel nibh sem. Etiam ut lacus a dui accumsan accumsan. Aenean vel orci elit.</p>
+    </div>
+  </section> 
+  <section class="end d-flex justify-content-between py-4 px-5">
+      <div class="mx-5">
+          <a class="lien" href="#">Press</a>
+          <a class="lien" href="#" >Company Blog</a>
+          <a class="lien" href="#">Contact Us</a>
+          <a class="lien" href="#">About Us</a>
+        <br>
+        <p class="Pfooter">Copyright &#169; Company Name, Inc.</p>
+      </div>
+      <div class="mx-5">
+        <i class="fas fa-envelope fa-2x my-3"></i>
+        <i class="fab fa-twitter fa-2x my-3"></i>
+        <i class="fab fa-facebook fa-2x my-3"></i>
+        <i class="fab fa-google-plus fa-2x my-3"></i>
+        <i class="fab fa-github fa-2x my-3"></i>
+        <i class="fab fa-instagram fa-2x my-3"></i>
+      </div>
+  </section>
+
+</footer>
+</body>
+</html>
